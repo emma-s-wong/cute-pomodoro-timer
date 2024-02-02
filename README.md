@@ -19,9 +19,9 @@ Welcome to the Pomodoro Monkey Timer, a fun and cute way to boost your productiv
 
 ### Technologies Used
 
-React
-CSS for styling
-SVG for animations
+- React
+- CSS for styling
+- SVG for animations
 
 ### Additional notes
 

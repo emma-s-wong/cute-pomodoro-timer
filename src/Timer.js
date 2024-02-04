@@ -6,7 +6,7 @@ import SettingsButton from './SettingsButton';
 import { useContext, useState, useEffect, useRef} from 'react';
 import SettingsContext from './SettingsContext';
 
-const red = '#9c2c2c';
+const red = '#c44949';
 const green = '#76ab78';
 
 function Timer() {
@@ -73,9 +73,9 @@ function Timer() {
                 value={percentage} 
                 text={minutes + ":" + seconds} 
                 styles={buildStyles({
-                textColor: '#3b1900',
+                textColor: '#4f2c11',
                 pathColor: mode === 'work' ? red : green,
-                trailColor: '#a87f59',
+                trailColor: '#e3c5c5',
             })}/>
             <div style={{marginTop:'20px'}}>
                 {isPaused 
